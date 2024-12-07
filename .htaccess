@@ -1,0 +1,6 @@
+<FilesMatch "^(edit.php|other-file.php)$">
+    AuthName "Editing a city"
+    AuthType Basic
+    AuthUserFile "C:/xampp2/htdocs/php/cities/.htpasswd"
+    Require valid-user
+</FilesMatch>
