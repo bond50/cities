@@ -1,0 +1,156 @@
+a.active,
+a.active:visited {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.pagination .active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+
+.pagination .disabled {
+    background-color: #f0f0f0;
+    color: #ccc;
+    border-color: #ddd;
+    cursor: not-allowed;
+}
+
+.pagination .dots {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 16px;
+    color: #999;
+    cursor: default;
+}
+
+.pagination .previous,
+.pagination .next {
+    font-weight: bold;
+}
+/* General Form Styling */
+.city-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Headings */
+.city-form h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Group Styling */
+.city-form .form-group {
+    margin-bottom: 15px;
+}
+
+.city-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.city-form input,
+.city-form .static-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Static Field Styling */
+.city-form .static-field {
+    background-color: #e9ecef;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Buttons */
+.city-form .form-actions {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.city-form button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.city-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+.city-form button[type="reset"] {
+    background-color: #f0f0f0;
+    color: #333;
+    margin-left: 10px;
+}
+
+.city-form button:hover {
+    opacity: 0.9;
+}
+
+/* Focus State */
+.city-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .city-form {
+        padding: 15px;
+    }
+
+    .city-form button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .city-form .form-actions {
+        text-align: center;
+    }
+}
